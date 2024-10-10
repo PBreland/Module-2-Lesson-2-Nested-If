@@ -1,5 +1,5 @@
 place = input("Choose a place: forest or cave? ")
-action = input("climb a tree or cross a river? ")
+
 
 
 if place == "forest":
@@ -16,5 +16,7 @@ elif place == "cave":
          print("You found a treasure!")
     elif option == ("proceed in the dark"):
          print("Good luck!")
-else:                       # Task 3 
+    else:
+        print("Please select again adventurer!")
+else:                       
     print("Please select again adventurer!")
